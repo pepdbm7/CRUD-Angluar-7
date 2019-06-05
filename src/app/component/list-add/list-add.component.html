@@ -1,0 +1,9 @@
+<form (ngSubmit)="addNew()">
+  <input type="text"
+  placeholder="Write something..."
+  name="newpostit"
+  class="form-control"
+  [(ngModel)]= "item.name"
+  >
+  <button class="btn btn-success mt-4" type="submit">Create</button>
+</form>

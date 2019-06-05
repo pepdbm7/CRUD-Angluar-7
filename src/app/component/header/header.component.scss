@@ -1,0 +1,10 @@
+//setting color variables:
+$color-green: hsla(120, 68%, 70%, 0.741);
+
+nav {
+    background-color: $color-green;
+    span {
+        color: whitesmoke;
+        text-shadow: 1px 3px 5px gray;
+    }
+}
